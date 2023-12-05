@@ -40,8 +40,42 @@ function Stores() {
                         </Col>
                     </Row>   
                 </Row>
+                
+                   <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
+                    <Row>
+                        <Col xs=".5" >
+                            <Image src="https://www.instacart.com/image-server/60x60/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png" roundedCircle />
+                        </Col>
+                        <Col>
+                            <h5 style={{ fontWeight: "bold" }}>COSTCO</h5>
+                            <p>Delivery * Pickup</p>
+                        </Col>
+                    </Row>
+                    <Col sm="1"></Col>
+                    <Row >
+                        <Col xs=".5">
+                            <Image src="https://www.instacart.com/image-server/96x/www.instacart.com/assets/domains/warehouse/logo/1573/230283d3-fcec-402b-856f-ca0292afddd9.png" roundedCircle />
+                        </Col>
+                        <Col>
+                            <h5 style={{ fontWeight: "bold" }}>Walgreens</h5>
+                            <p>Delivery * Pickup</p>
+                        </Col>
+                    </Row>
+                    <Col sm="1"></Col>
+                    <Row >
+                        <Col xs=".5" >
+                            <Image src="https://www.instacart.com/image-server/96x/www.instacart.com/assets/domains/warehouse/logo/1425/841f212e-4938-4245-9a31-62f61dd99d6b.jpg" roundedCircle />
+                        </Col>
+                        <Col md="6">
+                            <h5 style={{ fontWeight: "bold" }}>DollarTree</h5>
+                            <p>Delivery * Pickup</p>
+                        </Col>
+                    </Row>   
+                </Row>
+                
             </Container>
         </div>
+        
     )
 }
 
